@@ -38,6 +38,19 @@
     <a href="#form" class="cta-button">AGENDAR DEMO</a>
 </section>
 
+<form name="pixlum-form" method="POST" data-netlify="true">
+    <input type="text" name="nombre" placeholder="Nombre" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <select name="tipo_proyecto" required>
+        <option value="">Tipo de Proyecto</option>
+        <option value="Residencial">Residencial</option>
+        <option value="Hotel">Hotel</option>
+        <option value="Comercial">Comercial</option>
+    </select><br>
+    <button type="submit">QUIERO MI GUÍA</button>
+    <input type="hidden" name="form-name" value="pixlum-form">
+</form>
+
 <footer>
     &copy; 2025 Pixlum | Iluminación sin límites
 </footer>
