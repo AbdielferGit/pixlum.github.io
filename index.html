@@ -1,43 +1,112 @@
-<section>
-    <h2>¿Por qué Pixlum?</h2>
-    <ul>
-        <li>Instalación sin cables visibles ni obras complicadas.</li>
-        <li>Bajo consumo energético y máxima seguridad.</li>
-        <li>Diseño personalizable para cualquier espacio.</li>
-    </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixlum Quebec - Innovative Lighting</title>
+    <meta name="description" content="Pixlum Quebec: Innovative lighting for homes, hotels, and commercial spaces. Download the free guide and book your demo.">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background: #000; color: #fff; text-align: center; padding: 40px 20px; position: relative; }
+        header h1 { font-size: 2.5em; margin: 0; }
+        header p { font-size: 1.2em; margin: 10px 0; }
+        .cta-button { background: #f7b500; color: #000; padding: 15px 25px; font-size: 1.2em; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; }
+        section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+        h2 { font-size: 2em; margin-bottom: 15px; }
+        ul { list-style: none; padding: 0; }
+        ul li::before { content: "✔ "; color: #f7b500; }
+        .form-section { background: #f7f7f7; padding: 40px; text-align: center; }
+        .form-section input, .form-section select { width: 80%; padding: 10px; margin: 10px 0; font-size: 1em; }
+        .form-section button { background: #f7b500; color: #000; padding: 15px; border: none; font-size: 1.2em; cursor: pointer; }
+        footer { text-align: center; padding: 20px; background: #000; color: #fff; font-size: 0.9em; }
+        .lang-selector { position: absolute; top: 10px; right: 20px; }
+        .lang-selector button { margin-left: 10px; background: #f7b500; color: #000; border: none; padding: 8px 12px; cursor: pointer; font-weight: bold; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-selector">
+            <button onclick="setLang('en')">EN</button>
+            <button onclick="setLang('fr')">FR</button>
+        </div>
+        <h1 data-lang="en">Turn Your Walls Into Luminous Art with Pixlum</h1>
+        <h1 data-lang="fr" class="hidden">Transformez vos murs en art lumineux avec Pixlum</h1>
+        <p data-lang="en">Innovative lighting for homes, hotels, and commercial spaces in Quebec</p>
+        <p data-lang="fr" class="hidden">Éclairage innovant pour maisons, hôtels et espaces commerciaux au Québec</p>
+        <a href="#form" class="cta-button" data-lang="en">Download Free Guide</a>
+        <a href="#form" class="cta-button hidden" data-lang="fr">Télécharger le guide gratuit</a>
+    </header>
 
-<section>
-    <h2>Cómo funciona</h2>
-    <p>Pixlum utiliza paneles conductores y microconectores que permiten colocar libremente luces LED, creando superficies únicas.</p>
-    <p><em>(Aquí irá un video demostrativo)</em></p>
-</section>
+    <section>
+        <h2 data-lang="en">Why Pixlum?</h2>
+        <h2 data-lang="fr" class="hidden">Pourquoi Pixlum ?</h2>
+        <ul data-lang="en">
+            <li>No visible cables or complex installations.</li>
+            <li>Low energy consumption and maximum safety.</li>
+            <li>Customizable design for any space.</li>
+        </ul>
+        <ul data-lang="fr" class="hidden">
+            <li>Aucune installation complexe ni câbles visibles.</li>
+            <li>Faible consommation énergétique et sécurité maximale.</li>
+            <li>Design personnalisable pour tout espace.</li>
+        </ul>
+    </section>
 
-<section>
-    <h2>Prueba Social</h2>
-    <blockquote>“Pixlum transformó nuestro lobby en una experiencia visual increíble.” – Hôtel Le Germain</blockquote>
-</section>
+    <section>
+        <h2 data-lang="en">How It Works</h2>
+        <h2 data-lang="fr" class="hidden">Comment ça marche</h2>
+        <p data-lang="en">Pixlum uses conductive panels and microconnectors that allow you to freely place LED lights, creating unique surfaces.</p>
+        <p data-lang="fr" class="hidden">Pixlum utilise des panneaux conducteurs et des micro-connecteurs qui permettent de placer librement des lumières LED pour créer des surfaces uniques.</p>
+        <p><em>(Video demo coming soon)</em></p>
+    </section>
 
-<section id="form" class="form-section">
-    <h2>Descarga la Guía Gratuita</h2>
-    <form>
-        <input type="text" placeholder="Nombre" required><br>
-        <input type="email" placeholder="Email" required><br>
-        <select>
-            <option value="">Tipo de Proyecto</option>
-            <option>Residencial</option>
-            <option>Hotel</option>
-            <option>Comercial</option>
-        </select><br>
-        <button type="submit">QUIERO MI GUÍA</button>
-    </form>
-</section>
+    <section>
+        <h2 data-lang="en">Social Proof</h2>
+        <h2 data-lang="fr" class="hidden">Avis de nos clients</h2>
+        <blockquote data-lang="en">“Pixlum transformed our hotel lobby into an incredible visual experience.” – Hôtel Le Germain</blockquote>
+        <blockquote data-lang="fr" class="hidden">« Pixlum a transformé notre hall d'hôtel en une expérience visuelle incroyable. » – Hôtel Le Germain</blockquote>
+    </section>
 
-<section style="text-align:center; padding:40px;">
-    <h2>Agenda tu demostración gratuita y descubre cómo Pixlum puede transformar tu espacio.</h2>
-    <a href="#form" class="cta-button">AGENDAR DEMO</a>
-</section>
+    <section id="form" class="form-section">
+        <h2 data-lang="en">Download the Free Guide</h2>
+        <h2 data-lang="fr" class="hidden">Téléchargez le guide gratuit</h2>
+        <form name="pixlum-form" method="POST" data-netlify="true" action="/thanks.html">
+            <input type="hidden" name="form-name" value="pixlum-form">
+            <input type="text" name="nombre" placeholder="Name / Nom" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <select name="tipo_proyecto" required>
+                <option value="">Project Type / Type de projet</option>
+                <option value="Residential">Residential / Résidentiel</option>
+                <option value="Hotel">Hotel / Hôtel</option>
+                <option value="Commercial">Commercial / Commercial</option>
+            </select><br>
+            <button type="submit" data-lang="en">I WANT MY GUIDE</button>
+            <button type="submit" class="hidden" data-lang="fr">JE VEUX MON GUIDE</button>
+        </form>
+    </section>
 
-<footer>
-    &copy; 2025 Pixlum | Iluminación sin límites
-</footer>x
+    <section style="text-align:center; padding:40px;">
+        <h2 data-lang="en">Book your free demo and discover how Pixlum can transform your space.</h2>
+        <h2 data-lang="fr" class="hidden">Réservez votre démonstration gratuite et découvrez comment Pixlum peut transformer votre espace.</h2>
+        <a href="#form" class="cta-button" data-lang="en">BOOK A DEMO</a>
+        <a href="#form" class="cta-button hidden" data-lang="fr">RÉSERVER UNE DÉMO</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Pixlum | Lighting without limits
+    </footer>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                if (el.getAttribute('data-lang') === lang) {
+                    el.classList.remove('hidden');
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
